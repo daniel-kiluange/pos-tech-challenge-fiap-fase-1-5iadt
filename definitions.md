@@ -49,3 +49,17 @@ Qualquer dúvida, não deixe de nos chamar no Discord, lá poderemos tirar suas 
 - definir método de aprendizado (machine learn - assitido)
 - treinar algorítimo
 - validar predição
+
+## dicionário de dados
+### fumante
+- 0 nao
+- 1 sim
+### genero
+- f - feminino
+- m - masculina
+### região
+1 norte
+2 nordeste
+3 centro-oeste
+4 sudeste
+5 sul
