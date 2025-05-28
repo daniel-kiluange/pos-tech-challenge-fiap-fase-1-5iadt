@@ -18,7 +18,7 @@ df = df.dropna(subset=['idade', 'genero', 'imc', 'filhos', 'fumante', 'regiao', 
 df['genero'] = df['genero'].str.lower().replace({'feminino': 'f', 'masculino': 'm', 'não informado': np.nan})
 df['fumante'] = df['fumante'].str.lower().replace({'sim': 1, 'não': 0, 'nao': 0, 'não informado': np.nan})
 df['regiao'] = df['regiao'].str.lower().replace({
-    'norte': 1, 'nordeste': 2, 'centro-oeste': 3, 'sudoeste': 4, 'sul': 5
+    'norte': 1, 'nordeste': 2, 'centro-oeste': 3, 'sudeste': 4, 'sul': 5
 })
 
 # Remover linhas com valores categóricos ausentes após padronização
