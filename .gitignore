@@ -12,16 +12,6 @@ env/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Data files
-*.csv
-*.tsv
-*.json
-*.xml
-*.xls
-*.xlsx
-*.h5
-*.pickle
-
 # Model files
 *.h5
 *.hdf5
